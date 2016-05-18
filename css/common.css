@@ -23,7 +23,7 @@ footer,
 b,
 address,
 aside{
-    font-family:"微软雅黑";
+    font-family:'微软雅黑';
     margin:0;
     padding:0;
     list-style:none;
@@ -109,6 +109,9 @@ dfn {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+}
+.f5{
+    background-color: #f5f4f9;
 }
 .f6{
     background-color: #f6f6f6 !important;
@@ -320,7 +323,7 @@ i{
     line-height:81px;
     position: absolute;
     right:10px;
-    top: 0px;
+    top: 0;
 }
 .pecharge header aside span{
     margin-right: 10px;
@@ -337,7 +340,7 @@ i{
     background-size:100%;
 }
 .pecharge .pech-content section.check{
-    padding:10px 0px;
+    padding:10px 0;
     width:300px;
     margin: 0 auto;
     overflow: hidden;
@@ -366,7 +369,7 @@ section.check a.active p{
     color:#006ebc;
 }
 section.radio{
-    padding:0px 10px 10px 10px;
+    padding:0 10px 10px 10px;
     border-bottom: 1px solid #efefef;
     overflow: hidden;
 }
@@ -447,7 +450,7 @@ section.integral aside a span.bg-blue{
     padding:0 6px;
 }
 footer.submit{
-    padding: 0px 15px 10px 15px;
+    padding: 0 15px 10px 15px;
 }
 footer.submit p{
     padding: 10px 0;
@@ -511,10 +514,10 @@ footer.submit p span{
     margin-top:0;
     margin-left:0;
 }
-@media screen and (min-width:370px){
+@media (min-width:370px){
     .qr-code{
-        width: 304.688px;
-        height: 251.953px;
+        width: 304px;
+        height: 251px;
         margin-top: -199.219px;
         margin-left: -152.344px;
         background: url(../images/38.png) no-repeat;
@@ -647,7 +650,7 @@ footer.submit p span{
     background-color: #b1ddea;
     font-size: 18px;
     border-radius: 300px;
-    box-shadow: 3px 3px 0px #327885;
+    box-shadow: 3px 3px 0 #327885;
 }
 .turnplate-box .bottom .btns button:nth-child(1){
     color:#e23843;
@@ -822,4 +825,152 @@ article.user-art aside div p a span:nth-child(2){
 }
 .icon-txjl{
     background-image: url(../images/27.png);
+}
+.recharg-record header{
+    background-color: #eeeeee;
+    padding:8px 15px;
+    font-size: 13px;
+}
+section .record-list{
+    overflow: hidden;
+    background-color: #fff;
+}
+.record-list aside{
+    position: relative;
+    overflow: hidden;
+    padding:10px 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.record-list aside a{
+    position: absolute;
+    top:17px;
+    left:15px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+.record-list aside a span{
+    display: block;
+    color: #999;
+}
+.record-list aside address{
+    margin-left:40px;
+}
+.record-list aside address p{
+    margin-left:6px;
+    float: left;
+    position: relative;
+    width: 80%;
+}
+.record-list aside address p span{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom:4px;
+}
+.record-list aside address p span:nth-child(1){
+    height: 19px;
+    line-height: 19px;
+    font-weight: bold;
+}
+.record-list aside address p span:nth-child(2){
+    font-size: 13px;
+    height: 17px;
+    line-height: 17px;
+    color: #999;
+}
+.record-list aside address p span b{
+    font-weight: normal;
+    color: #999;
+}
+.record-list aside address i{
+    width:42px;
+    height:42px;
+    display: block;
+    margin-top:1px;
+    float: left;
+    border-radius: 999px;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.record-list aside address p span a.gold{
+    position: absolute;
+    right:00px;
+    top:0;
+    display: block;
+    height:17px;
+    line-height:17px;
+}
+.record-list aside address p span a.gold i{
+    width:17px;
+    height:17px;
+    display: block;
+    margin-top:0;
+    float:right;
+    border-radius: 999px;
+    background: url(../images/35.png) no-repeat;
+    background-size:100%;
+}
+.record-list aside address p span a.gold span{
+    float:right;
+    display: block;
+    overflow: hidden;
+    height:16px;
+    margin:0;
+    padding: 0;
+}
+.record-list aside address div{
+    margin-left:6px;
+    float: left;
+    position: relative;
+    width: 80%;
+    height:44px;
+    overflow: hidden;
+    line-height: 44px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.recharg-record .icon-dx{
+    background-image: url(../images/32.png);
+}
+.recharg-record .icon-lt{
+    background-image: url(../images/33.png);
+}
+.recharg-record .icon-yd{
+    background-image: url(../images/34.png);
+}
+.recharg-record .icon-jb{
+    background-image: url(../images/35.png);
+}
+.recharg-record .icon-yy{
+    background-image: url(../images/36.png);
+}
+.recharg-record .icon-hd{
+    background-image: url(../images/28.png);
+}
+.recharg-record .icon-zjgg{
+    background-image: url(../images/29.png);
+}
+.recharg-record .icon-xttz{
+    background-image: url(../images/30.png);
+}
+.record-list aside address.none-margin-left p{
+    width:83%;
+}
+@media (min-width:370px) and (max-width:470px){
+    .record-list aside address p{
+        width:83%;
+    }
+    .record-list aside address.none-margin-left p{
+        width:86%;
+    }
+}
+@media (min-width:470px) and (max-width:640px){
+    .record-list aside address p{
+        width:86%;
+    }
+}
+.none-margin-left{
+    margin-left:0 !important;
 }
