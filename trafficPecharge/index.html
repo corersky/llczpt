@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<link lang="en">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>流量充值</title>
+    <link href="../css/common.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="max-width pecharge">
+    <form>
+        <header class="phone-num">
+            <address>
+                <input type="text" value="13452468750"/>
+                <p>全国三网可充，立即生效</p>
+            </address>
+            <aside>
+                <span>广州移动</span>
+                <i class="icon-phone"></i>
+            </aside>
+        </header>
+        <article class="pech-content">
+            <section class="check">
+                <a class="active">
+                    <p>30M</p>
+                    <span>送30积分</span>
+                </a>
+                <a>
+                    <p>100M</p>
+                    <span>送100积分</span>
+                </a>
+                <a>
+                    <p>100M</p>
+                    <span>送100积分</span>
+                </a>
+                <a>
+                    <p>100M</p>
+                    <span>送100积分</span>
+                </a>
+                <a>
+                    <p>100M</p>
+                    <span>送100积分</span>
+                </a>
+                <a>
+                    <p>2000M</p>
+                    <span>送2000积分</span>
+                </a>
+            </section>
+            <section class="radio">
+                <input type="radio" name="category" checked=true width="16"/>
+                <span>全国</span>
+                <input type="radio" name="category" width="16"/>
+                <span>省内</span>
+            </section>
+            <section class="text">
+                <p>
+                    <span>30M流量包</span>
+                    <a><b>4.70元</b><s>5.0元</s></a>
+                </p>
+                <h4>全国可用，即时生效，当月有效，无限制</h4>
+            </section>
+            <section class="integral">
+                <aside>
+                    <p>可抵扣<i>2</i>元</p>
+                    <a>
+                        <span>当前积分</span>
+                        <span class="bg-blue">200</span>
+                    </a>
+                </aside>
+                <input type="checkbox" width="16"/>
+            </section>
+        </article>
+        <footer class="footer submit">
+            <p>
+                <a>积分抵扣：
+                    <span>-2元</span>
+                </a>
+                合计：
+                <span>￥2.70元</span>
+            </p>
+            <input type="submit" value="立即充值"/>
+        </footer>
+    </form>
+</div>
+</body>
+<script src="../js/jquery-1.7.min.js"></script>
+<script>
+    $(function(){
+        $(".check a").click(function(){
+            $(this).addClass('active').siblings('a').removeClass('active');
+        })
+    })
+</script>
+</html>
