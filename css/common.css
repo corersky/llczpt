@@ -628,6 +628,7 @@ footer.submit p span{
 }
 .turnplate-box .turn-plate{
     padding:10px 0;
+    padding-bottom: 0;
 }
 .turnplate-box .bottom a{
     display: block;
@@ -682,4 +683,37 @@ footer.submit p span{
     background-size:100% ;
     top:0;
     left:20%;
+}
+.user-home header{
+    position: relative;
+    padding:15px;
+    overflow: hidden;
+}
+.user-home header aside{
+    margin-right: 37px;
+}
+.user-home header aside img{
+    display: block;
+    float: left;
+    width:60px;
+    height: 60px;
+}
+.user-home header aside p{
+    display: block;
+    float: left;
+    margin-left:5px;
+}
+.user-home header aside p span,
+.user-home header aside p a{
+    display: block;
+}
+.user-home header a.icon{
+    display: block;
+    width:20px;
+    height:20px;
+    background: url(../images/icon/icon-messg.png);
+    background-size:100%;
+    position: absolute;
+    top:15px;
+    right:15px;
 }
