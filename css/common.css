@@ -688,6 +688,9 @@ footer.submit p span{
     position: relative;
     padding:15px;
     overflow: hidden;
+    margin-bottom: 15px;
+    background-color: #FFF;
+    border-bottom:1px solid #e5e5e5 ;
 }
 .user-home header aside{
     margin-right: 37px;
@@ -706,6 +709,22 @@ footer.submit p span{
 .user-home header aside p span,
 .user-home header aside p a{
     display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.user-home header aside p span{
+    font-size:15px;
+    margin-top:5px;
+    height:20px;
+    line-height:20px;
+}
+.user-home header aside p a{
+    margin-top:15px;
+    font-size: 14px;
+    color:#279ee0;
+    height:19px;
+    line-height:19px;
 }
 .user-home header a.icon{
     display: block;
@@ -716,4 +735,91 @@ footer.submit p span{
     position: absolute;
     top:15px;
     right:15px;
+}
+.user-home header a i{
+    width:6px;
+    height:6px;
+     position:absolute;
+    top:-2px;
+    right:-3px;
+    background-color: red;
+    border-radius: 10px;
+ }
+.user-home article aside{
+    padding:10px 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-bottom:1px solid #e5e5e5 ;
+    border-top:1px solid #e5e5e5 ;
+}
+.user-home article aside div{
+    overflow: hidden;
+}
+.user-home article aside div:nth-child(1){
+    border-bottom:1px solid #e5e5e5 ;
+}
+article.user-art aside div p{
+    float: left;
+    overflow: hidden;
+    width:50%;
+    margin:6px 0;
+}
+article.user-art aside div p button{
+    float: right;
+    border:1px solid #279ee0;
+    border-radius: 3px;
+    padding:2px 6px;
+    background-color: #fff;
+    color: #279ee0;
+    margin-top: 5px;
+}
+article.user-art aside div p i{
+    width:27px;
+    height:27px;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-top:5px;
+    margin-right:10px;
+}
+article.user-art aside div p a{
+    display: block;
+    float: left;
+}
+article.user-art aside div p a span{
+    display: block;
+    text-align:left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+article.user-art aside div p a span:nth-child(1){
+    font-size: 14px;
+    height:19px;
+    line-height:19px;
+}
+article.user-art aside div p a span:nth-child(2){
+    font-size: 13px;
+    color:#999999;
+    height:17px;
+    line-height:17px;
+}
+.icon-wdjf{
+    background-image: url(../images/22.png);
+}
+.icon-wdewm{
+    background-image: url(../images/23.png);
+}
+.icon-czjl{
+    background-image: url(../images/24.png);
+}
+.icon-wdsy{
+    background-image: url(../images/25.png);
+}
+.icon-khxffx{
+    background-image: url(../images/26.png);
+}
+.icon-txjl{
+    background-image: url(../images/27.png);
 }
