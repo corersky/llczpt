@@ -1,0 +1,42 @@
+1、流量充值----trafficPecharge文件夹
+
+	└1个页面
+	     └1、index.html---------------->>流量充值
+
+
+2、天天好礼----shareSend文件夹
+
+	└3个页面
+	     └1、----index.html--------------->>分享就送
+
+	     └2、----send.html---------------->>分享成功
+
+	     └3、----turntable.html----------->>转盘抽奖
+
+
+3、更多--------more文件夹
+
+	└12个页面
+	     └1、----index.html--------------->>个人中心
+
+	     └2、----shareSend.html----------->>分享就送
+
+	     └3、----sendSuccessful.html------>>分享成功
+
+	     └4、----rechargRecord.html------->>充值记录
+
+	     └5、----consumeCashback.html----->>客户消费返现
+
+	     └6、----withdrawRecord.html------>>提现记录
+
+	     └7、----systemMsg.html----------->>系统消息
+
+	     └8、----activity.html------------>系统消息-活动
+
+	     └9、----sharePolicy.html--------->>分享政策
+
+	     └10、----agentPolicy.html-------->>代理政策
+
+	     └11、----agentJoinIn.html-------->>代理加盟
+
+	     └12、----aboutUs.html------------>>关于我们
