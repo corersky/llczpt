@@ -26,10 +26,12 @@ function mov(sW){
 }
 $('input.send').click(function(){
     $('.mask-panel').show();
+    $('.qr-code').removeClass('pulse');
     $fn.move($$('#sec'),'bottom',10,0);
 });
 $('input.close').click(function(){
     $fn.move($$('#sec'),'bottom',10,-174,function(){
+        $('.qr-code').addClass('pulse');
         $('.mask-panel').hide();
     });
 });
