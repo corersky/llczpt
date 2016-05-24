@@ -1288,3 +1288,80 @@ section .record-list{
     display: block;
     overflow: hidden;
 }
+.paySuccess header{
+    height: 40px;
+    line-height: 40px;
+    background-color: #87c710;
+}
+.paySuccess header img{
+    width:30px;
+    height:30px;
+    display: block;
+    float: left;
+    margin-top:5px;
+    margin-left:15px;
+    margin-right:5px;
+}
+.paySuccess header span{
+    line-height: 40px;
+    display: block;
+    color: #fff;
+    float: left;
+}
+.paySuccess article{
+    padding:0 15px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #ccc;
+}
+.paySuccess article img{
+    width:140px;
+    display: block;
+    margin:0 auto;
+    overflow: hidden;
+}
+.paySuccess article p{
+    color:#87c710;
+    font-size: 22px;
+    text-align: center;
+}
+.paySuccess article span{
+    color:#999;
+    text-align: center;
+    display: block;
+    padding:8px 5px 5px 5px;
+}
+.paySuccess footer button{
+    border: 0;
+    background-color: transparent;
+}
+.paySuccess footer button{
+    display: block;
+    width:100%;
+    padding:5px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.paySuccess footer button i{
+    width:27px;
+    height:27px;
+    display: block;
+    float: left;
+    background: url(../images/dingd.png) no-repeat;
+    background-size: 100%;
+    margin-left: 5px;
+}
+.paySuccess footer button span{
+    float: left;
+    margin-top: 5px;
+    color:#999;
+}
+.paySuccess footer button a{
+    width:22px;
+    height:22px;
+    display: block;
+    background: url(../images/right.png) no-repeat;
+    background-size: 100%;
+    float: right;
+    margin-top: 2px;
+    margin-right: 5px;
+}
